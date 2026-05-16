@@ -11,11 +11,11 @@ int main(void) {
         "Procyon",
         "Achernar",
         "Betelgeuse",
-        "Hadar"
+        "Altair"
     };
 
     for (int i = 0; i < 10; i++) {
-        printf("%s\n", stars[i]);
+        printf("%d. %s\n", i + 1, stars[i]);
     }
 
     return 0;
