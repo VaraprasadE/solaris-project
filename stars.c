@@ -1,6 +1,6 @@
-#include <stdio.h>
-
-int main(void) {
+#include<stdio.h>
+// print 10 brightest stars in the night sky
+int main() {
     const char *stars[] = {
         "Sirius",
         "Canopus",
@@ -11,11 +11,11 @@ int main(void) {
         "Procyon",
         "Achernar",
         "Betelgeuse",
-        "Altair"
+        "Hadar"
     };
 
     for (int i = 0; i < 10; i++) {
-        printf("%d. %s\n", i + 1, stars[i]);
+        printf("%s\n", stars[i]);
     }
 
     return 0;
